@@ -1,0 +1,119 @@
+<!--
+
+              Website template by zxvnme
+        https://github.com/zxvnme/zxvnme.github.io
+
+                              do not remove this, thanks.
+                                                       -->
+
+<head>
+
+    <title>~zxvnme</title>
+
+    <!-- Author info -->
+    <meta name="author" content="zxvnme">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="resources/css/styling.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function mobileBrowser() {
+            if (screen.width <= 480) {
+                location.href = "mobile.html";
+            }
+        }
+    </script>
+
+</head>
+
+<body style="background-color: #2c3e50; font-family: 'Open Sans', sans-serif" onload="mobileBrowser();">
+
+    <!-- Particles js https://github.com/VincentGarreau/particles.js/ -->
+    <script src="/resources/libraries/js/particles.js"></script>
+    <script src="/resources/js/app.js"></script>
+
+
+    <div id="particles-js">
+        <div class="center" style="background-color: #f1f1f1; width: 560px; height: 350px;">
+
+            <nav class="navbar navbar-default">
+
+                <ul class="nav navbar-nav">
+                    <li><a data-toggle="tab" style="color: darkgray" href="#about">about</a></li>
+                    <li><a data-toggle="tab" style="color: darkgray" href="#projects">projects</a></li>
+                    <li><a data-toggle="tab" style="color: darkgray" href="#docs">docs</a></li>
+                    <li><a data-toggle="tab" style="color: darkgray" href="#downloadables">downloadables</a></li>
+                    <li><a data-toggle="tab" style="color: darkgray" href="#social">social</a></li>
+                </ul>
+            </nav>
+
+            <div class="tab-content">
+                <div id="about" class="tab-pane fade in active">
+                    <h2 style="margin-left: 6px;">~about me:</h2>
+                    <p class="tabcontentfont" style="margin-left: 8px;">
+                        Hey, I am zxvnme. I'm a medium-level programmer with big aspirations.
+                    </p>
+                    <p class="tabcontentfont" style="margin-left: 8px;">
+                        Programming is my passion, I spend most of my time with it.
+                    </p>
+                    <p class="tabcontentfont" style="margin-left: 8px;">
+                        However I am not a simple person, I like to grow up and gain additional knowledge.
+                    </p>
+                </div>
+
+                <div id="projects" class="tab-pane fade">
+                    <h3 style="padding-left: 6px;">~my projects</h3>
+                    <dl class="tabcontentlistfont">
+                        <dt>voltage</dt>
+                        <dd style="padding-left: 16px;">Discord management app <span class="label label-success">node.js</span>  <span class="label label-primary">electron</span></dd>
+                        <dt>cuteproxy</dt>
+                        <dd style="padding-left: 16px;">Minecraft penetration testing proxy server <span class="label label-default">java</span></dd>
+                    </dl>
+                </div>
+
+                <div id="docs" class="tab-pane fade">
+                    <h3 style="padding-left: 6px;">~documenation</h3>
+                    <div class="center2" style="top: 75% !important">
+                        <a style="padding-left: 6px;" type="button" data-toggle="tooltip" class="btn btn-default disabled" href="docs.html">click here to show docs page</a>
+                    </div>
+                </div>
+
+                <div id="downloadables" class="tab-pane fade">
+                    <h3 style="margin-left: 6px;">~downloadable content</h3>
+                    <p style="padding-left: 6px;">oops, nothing there (╯⚆ω⚆）╯︵ ┻━┻</p>
+                </div>
+
+                <div id="social" class="tab-pane fade">
+                    <h3 style="margin-left: 6px;">~social<small id="actuallink" style="margin-left: 6px">links</small></h3>
+
+                    <a class="icons" href="https://github.com/zxvnme">
+                        <img onmouseover="setName('github')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/GitHubIcon.png" style="width: 40px;">
+                    </a>
+                    <a class="icons" href="http://steamcommunity.com/id/johhnyhax/">
+                        <img onmouseover="setName('steam')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/SteamIcon.png" style="width: 40px;">
+                    </a>
+                    <a class="icons" href="https://discord.gg/xG6JtYd">
+                        <img onmouseover="setName('discord')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/DiscordIcon.png" style="width: 40px;">
+                    </a>
+                    <a class="icons" href="https://www.youtube.com/channel/UCRv6khDEPWgTNFU4mhI1wrA">
+                        <img onmouseover="setName('youtube')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/YoutubeIcon.png" style="width: 40px;">
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/resources/js/events.js"></script>
+
+</body>

@@ -1,0 +1,63 @@
+html {
+    overflow-y: hidden;
+}
+
+.middle {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    border-radius: 4px;
+}
+
+.tabcontentheadfont {
+    font-size: 16px;
+    padding-left: 4px;
+}
+
+.tabcontentfont {
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+.tabcontentlistfont {
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.icons {
+    position: relative;
+    top: 40px;
+    left: 35%;
+}
+
+.center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.center2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+a:link:hover {
+    text-decoration: none;
+}
+
+h4 {
+    position: relative;
+    left: 43%;
+}
