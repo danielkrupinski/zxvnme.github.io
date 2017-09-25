@@ -29,9 +29,12 @@ html {
 }
 
 .icons {
-    position: relative;
-    top: 40px;
-    left: 35%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .center {
