@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 
               Website template by zxvnme
@@ -9,7 +10,8 @@
 <head>
 
     <title>~zxvnme</title>
-
+    <!-- Metas -->
+    <meta charset="utf-8"/>
     <!-- Author info -->
     <meta name="author" content="zxvnme">
 
@@ -25,7 +27,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
-        function mobileBrowser() {
+        function initialization() {
+            // Mobile browser check
             if (screen.width <= 480) {
                 location.href = "mobile.html";
             }
@@ -35,16 +38,16 @@
 
 </head>
 
-<body style="background-color: #2c3e50; font-family: 'Open Sans', sans-serif" onload="mobileBrowser();">
+<body style="background-color: #2a2a2a; font-family: 'Open Sans', sans-serif; text-shadow: 1px 1px black; color: #757575" onload="initialization();">
     <!-- Particles js https://github.com/VincentGarreau/particles.js/ -->
     <script src="/resources/libraries/js/particles.js"></script>
     <script src="/resources/js/app.js"></script>
 
 
     <div id="particles-js">
-        <div class="center" style="background-color: #f1f1f1; width: 560px; height: 350px;">
+        <div class="center" style="background-color: #424242; width: 560px; height: 350px;">
 
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default" style="background-color: #424242;">
 
                 <ul class="nav navbar-nav">
                     <li><a data-toggle="tab" style="color: darkgray" href="#about">about</a></li>
@@ -59,17 +62,17 @@
                 <div id="about" class="tab-pane fade in active">
                     <h2 style="margin-left: 6px;">~about me:</h2>
                     <p class="tabcontentfont" style="margin-left: 8px;">
-                        Hey, I am zxvnme. I'm a medium-level programmer with big aspirations.
+                        my name's Igor (zxvnme), im medium-level programmer with big aspirations
                     </p>
                     <p class="tabcontentfont" style="margin-left: 8px;">
-                        Programming is my passion, I spend most of my time with it.
+                        i spend really much time on learning and developing my programming skills
                     </p>
                     <p class="tabcontentfont" style="margin-left: 8px;">
-                        However I am not a simple person, I like to grow up and gain additional knowledge.
+                        feel free to <a data-toggle="tab" href="#social">contact</a> me, i usually dont bite
                     </p>
                     <br>
                     <p class="tabcontentfont" style="margin-left: 8px;">
-                        Website source can be found at <a href="https://github.com/zxvnme/zxvnme.github.io">GitHub.</a>
+                        website sourcecode available on <a href="https://github.com/zxvnme/zxvnme.github.io">github</a>
                     </p>
                 </div>
 
@@ -77,9 +80,13 @@
                     <h3 style="padding-left: 6px;">~my projects</h3>
                     <dl class="tabcontentlistfont">
                         <dt>voltage</dt>
-                        <dd style="padding-left: 16px;">Discord management app <span class="label label-success">node.js</span> <span class="label label-primary">electron</span></dd>
-                        <dt>cuteproxy</dt>
-                        <dd style="padding-left: 16px;">Minecraft penetration testing proxy server <span class="label label-default">java</span></dd>
+                        <dd style="padding-left: 16px;">discord management app <span class="label label-success">node.js</span> <span class="label label-primary">electron</span></dd>
+                        
+                        <dt>crackerer</dt>
+                        <dd style="padding-left: 16px;">bruteforce like steam web api app <span class="label label-success">node.js</span></dd>
+                        
+                        <dt>cyrex</dt>
+                        <dd style="padding-left: 16px;">csgo cheat <span class="label label-default">vcpp</span></dd>
                     </dl>
                 </div>
 
@@ -92,7 +99,7 @@
 
                 <div id="downloadables" class="tab-pane fade">
                     <h3 style="margin-left: 6px;">~downloadable content</h3>
-                    <p style="padding-left: 6px;">oops, nothing there (╯⚆ω⚆）╯︵ ┻━┻</p>
+                    <p style="padding-left: 6px;">oops, nothing's there (╯⚆ω⚆）╯︵ ┻━┻</p>
                 </div>
 
                 <div id="social" class="tab-pane fade">
@@ -101,15 +108,19 @@
                         <a class="icon" href="https://github.com/zxvnme">
                             <img onmouseover="setName('github')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/GitHubIcon.png" style="width: 40px;">
                         </a>
-                        <a class="icon" href="http://steamcommunity.com/id/zxvnme/">
+                        <a class="icon" href="http://steamcommunity.com/id/aaax/">
                             <img onmouseover="setName('steam')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/SteamIcon.png" style="width: 40px;">
                         </a>
-                        <a class="icon" href="https://discord.gg/xG6JtYd">
+                        <a class="icon" href="https://fce.tumblr.com/">
+                            <img onmouseover="setName('tumblr')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/TumblrIcon.png" style="width: 40px;">
+                        </a>
+                        <a class="icon" href="https://discord.gg/ccUWyDs">
                             <img onmouseover="setName('discord')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/DiscordIcon.png" style="width: 40px;">
                         </a>
                         <a class="icon" href="https://www.youtube.com/channel/UCRv6khDEPWgTNFU4mhI1wrA">
                             <img onmouseover="setName('youtube')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/YoutubeIcon.png" style="width: 40px;">
                         </a>
+                        
                     </div>
 
 
