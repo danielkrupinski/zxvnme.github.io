@@ -45,7 +45,12 @@ html {
     margin-top: -100px;
 }
 
-a:link:hover {
+.hyperlink {
+    color: #c315c3;
+}
+
+.hyperlink:hover {
+    color: #9C27B0;
     text-decoration: none;
 }
 

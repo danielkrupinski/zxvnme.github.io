@@ -11,7 +11,7 @@
 
     <title>~zxvnme</title>
     <!-- Metas -->
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <!-- Author info -->
     <meta name="author" content="zxvnme">
 
@@ -39,22 +39,23 @@
 </head>
 
 <body style="background-color: #2a2a2a; font-family: 'Open Sans', sans-serif; text-shadow: 1px 1px black; color: #757575" onload="initialization();">
+    
     <!-- Particles js https://github.com/VincentGarreau/particles.js/ -->
     <script src="/resources/libraries/js/particles.js"></script>
-    <script src="/resources/js/app.js"></script>
+    <script src="/resources/js/index.js"></script>
 
 
     <div id="particles-js">
-        <div class="center" style="background-color: #424242; width: 560px; height: 350px;">
+        <div class="center" style="background-color: #212121; border: solid; border-width: 1px; border-color: black; border-radius: 8px; width: 560px; height: 350px;">
 
-            <nav class="navbar navbar-default" style="background-color: #424242;">
+            <nav class="navbar navbar-inverse">
 
                 <ul class="nav navbar-nav">
-                    <li><a data-toggle="tab" style="color: darkgray" href="#about">about</a></li>
-                    <li><a data-toggle="tab" style="color: darkgray" href="#projects">projects</a></li>
-                    <li><a data-toggle="tab" style="color: darkgray" href="#docs">docs</a></li>
-                    <li><a data-toggle="tab" style="color: darkgray" href="#downloadables">downloadables</a></li>
-                    <li><a data-toggle="tab" style="color: darkgray" href="#social">social</a></li>
+                    <li><a data-toggle="tab" href="#about">about</a></li>
+                    <li><a data-toggle="tab" href="#projects">projects</a></li>
+                    <li><a data-toggle="tab" href="#docs">docs</a></li>
+                    <li><a data-toggle="tab" href="#downloadables">downloadables</a></li>
+                    <li><a data-toggle="tab" href="#social">social</a></li>
                 </ul>
             </nav>
 
@@ -68,11 +69,11 @@
                         i spend really much time on learning and developing my programming skills
                     </p>
                     <p class="tabcontentfont" style="margin-left: 8px;">
-                        feel free to <a data-toggle="tab" href="#social">contact</a> me, i usually dont bite
+                        feel free to <a class="hyperlink" data-toggle="tab" href="#social">contact</a> me, i usually dont bite
                     </p>
                     <br>
                     <p class="tabcontentfont" style="margin-left: 8px;">
-                        website sourcecode available on <a href="https://github.com/zxvnme/zxvnme.github.io">github</a>
+                        website sourcecode available on <a class="hyperlink" href="https://www.github.com/zxvnme/zxvnme.github.io">github</a> ;d
                     </p>
                 </div>
 
@@ -81,10 +82,10 @@
                     <dl class="tabcontentlistfont">
                         <dt>voltage</dt>
                         <dd style="padding-left: 16px;">discord management app <span class="label label-success">node.js</span> <span class="label label-primary">electron</span></dd>
-                        
+
                         <dt>crackerer</dt>
                         <dd style="padding-left: 16px;">bruteforce like steam web api app <span class="label label-success">node.js</span></dd>
-                        
+
                         <dt>cyrex</dt>
                         <dd style="padding-left: 16px;">csgo cheat <span class="label label-default">vcpp</span></dd>
                     </dl>
@@ -120,7 +121,7 @@
                         <a class="icon" href="https://www.youtube.com/channel/UCRv6khDEPWgTNFU4mhI1wrA">
                             <img onmouseover="setName('youtube')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/YoutubeIcon.png" style="width: 40px;">
                         </a>
-                        
+
                     </div>
 
 
