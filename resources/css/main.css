@@ -2,6 +2,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #757575;
 }
 
 .all {
@@ -29,6 +35,10 @@ body {
 }
 
 .footer {
+  position: absolute;
   text-align: center;
-  margin-top: 60%
+  bottom: 7.77%;
+  left: 0;
+  right: 0;
+  height: 0;
 }
