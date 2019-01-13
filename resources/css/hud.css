@@ -1,0 +1,37 @@
+.hud {
+  background-color: #212121;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 720px;
+  height: 420px;
+  opacity: 0.90;
+  -webkit-box-shadow: 10px 10px 5px 0 #191919;
+  -moz-box-shadow: 10px 10px 5px 0 #191919;
+  box-shadow: 10px 10px 5px 0 #191919;
+}
+
+.hud .panel {
+  width: 30%;
+  text-align: center;
+  float: left;
+  border: none;
+  border-right: solid;
+  border-color: black;
+  border-width: 1px;
+  -webkit-box-shadow: 10px 0px 5px 0 #191919;
+  -moz-box-shadow: 10px 0px 5px 0 #191919;
+  box-shadow: 10px 0px 5px 0px #191919;
+}
+
+.hud .content {
+  width: 66%;
+  float: left;
+  margin-left: 3%;
+  border: none;
+  display: inline-block;
+  position: absolute;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}

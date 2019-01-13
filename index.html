@@ -10,20 +10,22 @@
 <head>
 
   <title>~zxvnme</title>
+  <link rel="icon" href="resources/images/logos/z64x64.ico">
+
   <!-- Metas -->
   <meta charset="UTF-8">
   <meta name="author" content="zxvnme">
   <meta name="description" content="zxvnme portfolio site">
-  <meta name="keywords" content="zxvnme,johhnyhax,jvm">
-
-  <link rel="shortcut icon" type="image/x-icon" href="resources/images/logos/z32-32.ico" />
+  <meta name="keywords" content="zxvnme,Portfolio,GitHub">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Language" content="en">
+  
 
   <!-- Imports -->
-  <link rel="stylesheet" href="resources/css/styling.css">
+  <link rel="stylesheet" href="resources/css/main.css">
+  <link rel="stylesheet" href="resources/css/hud.css">
+  <link rel="stylesheet" href="resources/css/animations.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <script type="text/javascript">
     function initialization() {
@@ -43,87 +45,36 @@
   <canvas class="background"></canvas>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 
-  <div class="center hud">
+  <div class="center hud animation fade-in">
 
-    <nav class="navbar navbar-inverse" style="border: none !important;">
-      <ul class="nav navbar-nav">
-        <li><a data-toggle="tab" href="#about"><i class="glyphicon glyphicon-pushpin"></i> about</a></li>
-        <li><a data-toggle="tab" href="#projects"><i class="glyphicon glyphicon-education"></i> projects</a></li>
-        <li><a data-toggle="tab" href="#social"><i class="glyphicon glyphicon-star-empty"></i> social</a></li>
-      </ul>
-    </nav>
+    <div class="hud panel">
 
-    <div class="tab-content">
+      <img class="delayed animation fade-in-down" src="resources/images/logos/z128x128-shadow.png">
 
-
-      <div id="about" class="tab-pane fade in active">
-        <div class="tab text">
-          <h2>~about me:</h2>
-          <p>
-            my name's Igor (zxvnme), im medium-level programmer with big aspirations
-          </p>
-          <p>
-            i spend a lot of time on learning and developing my programming skills
-          </p>
-          <p>
-            feel free to <a class="hyperlink" data-toggle="tab" href="#social">contact</a> me, i usually dont bite
-          </p>
-          <br>
-          <p>
-            website sourcecode available on <a class="hyperlink" href="https://www.github.com/zxvnme/zxvnme.github.io">github</a>
-          </p>
-        </div>
-      </div>
-
-      <div id="projects" class="tab-pane fade">
-        <div class="tab text">
-          <h3>~my projects</h3>
-          <dl>
-            <dt>voltage</dt>
-            <dd>discord management app <span class="label label-success">node.js</span> <span class="label label-primary">electron</span></dd>
-
-            <dt>crackerer</dt>
-            <dd>bruteforce like steam web api app <span class="label label-success">node.js</span></dd>
-
-            <dt>cyrex</dt>
-            <dd>csgo cheat <span class="label label-default">vcpp</span></dd>
-          </dl>
-        </div>
-      </div>
-
-
-      <div id="social" class="tab-pane fade">
-        <div class="tab text">
-          <h3>~social<small id="actuallink"> links</small></h3>
-        </div>
-
-
-        <div class="icons">
-          <a class="icon" href="https://github.com/zxvnme">
-                            <img onmouseover="setName(' github')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/GitHubIcon.png" style="width: 40px;">
-                        </a>
-          <a class="icon" href="http://steamcommunity.com/id/aaax/">
-                            <img onmouseover="setName(' steam')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/SteamIcon.png" style="width: 40px;">
-                        </a>
-          <a class="icon" href="https://fce.tumblr.com/">
-                            <img onmouseover="setName(' tumblr')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/TumblrIcon.png" style="width: 40px;">
-                        </a>
-          <a class="icon" href="https://discord.gg/ccUWyDs">
-                            <img onmouseover="setName(' discord')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/DiscordIcon.png" style="width: 40px;">
-                        </a>
-          <a class="icon" href="https://www.youtube.com/channel/UCRv6khDEPWgTNFU4mhI1wrA">
-                            <img onmouseover="setName(' youtube')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/YoutubeIcon.png" style="width: 40px;">
-                        </a>
-
-        </div>
-
-
+      <div class="delayed animation fade-in-up">
+        <p>
+          discord: zxvnme#2598<br>
+          zxvnme@protonmail.com<br>
+          github.com/zxvnme
+        </p>
       </div>
 
     </div>
 
+    <div class="hud content delayed animation fade-in">
+      <h2>~ about me:</h2>
+      <p>
+        hello friend, hello friend?<br><br>
+        im Igor. 16 yo teen, bmx rider, linux enthusiast, pixelart newbie<br>
+        ... and most of all - node and java programmer.<br><br>
+        programming is a hobby that gives me the biggest satisfaction thusly making my code optimized and realiable.<br><br>
+
+        if you have any questions, problems or business affairs - contact me through e-mail. i'll try to respond ASAP.
+      </p>
+    </div>
+
   </div>
 
-  <script src="/resources/js/events.js"></script>
+  <script src="/resources/js/particles-init.js"></script>
 
 </body>
