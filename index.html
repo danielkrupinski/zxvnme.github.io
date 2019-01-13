@@ -9,131 +9,121 @@
 
 <head>
 
-    <title>~zxvnme</title>
-    <!-- Metas -->
-    <meta charset="UTF-8">
-    <meta name="author" content="zxvnme">
-    <meta name="description" content="zxvnme portfolio site">
-    <meta name="keywords" content="zxvnme,johhnyhax,jvm">
+  <title>~zxvnme</title>
+  <!-- Metas -->
+  <meta charset="UTF-8">
+  <meta name="author" content="zxvnme">
+  <meta name="description" content="zxvnme portfolio site">
+  <meta name="keywords" content="zxvnme,johhnyhax,jvm">
 
-    <link rel="shortcut icon" type="image/x-icon" href="resources/images/logos/z32-32.ico"/>
+  <link rel="shortcut icon" type="image/x-icon" href="resources/images/logos/z32-32.ico" />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Imports -->
+  <link rel="stylesheet" href="resources/css/styling.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="resources/css/styling.css">
+  <script type="text/javascript">
+    function initialization() {
+      // Mobile browser check
+      if (screen.width <= 480) {
+        location.href = "mobile.html";
+      }
+    }
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-        function initialization() {
-            // Mobile browser check
-            if (screen.width <= 480) {
-                location.href = "mobile.html";
-            }
-        }
-
-    </script>
+  </script>
 
 </head>
 
-<body style="background-color: #2a2a2a; font-family: 'Open Sans', sans-serif; text-shadow: 1px 1px black; color: #757575" onload="initialization();">
 
-    <!-- Particles js https://github.com/VincentGarreau/particles.js/ -->
-    <script src="/resources/libraries/js/particles.js"></script>
-    <script src="/resources/js/index.js"></script>
+<body class="all">
+
+  <canvas class="background"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+
+  <div class="center hud">
+
+    <nav class="navbar navbar-inverse" style="border: none !important;">
+      <ul class="nav navbar-nav">
+        <li><a data-toggle="tab" href="#about"><i class="glyphicon glyphicon-pushpin"></i> about</a></li>
+        <li><a data-toggle="tab" href="#projects"><i class="glyphicon glyphicon-education"></i> projects</a></li>
+        <li><a data-toggle="tab" href="#social"><i class="glyphicon glyphicon-star-empty"></i> social</a></li>
+      </ul>
+    </nav>
+
+    <div class="tab-content">
 
 
-    <div id="particles-js">
-        <div class="center" style="background-color: #212121; border: solid; border-width: 1px; border-color: black; border-radius: 8px; width: 720px; height: 420px; opacity: 0.90;">
+      <div id="about" class="tab-pane fade in active">
+        <div class="tab text">
+          <h2>~about me:</h2>
+          <p>
+            my name's Igor (zxvnme), im medium-level programmer with big aspirations
+          </p>
+          <p>
+            i spend a lot of time on learning and developing my programming skills
+          </p>
+          <p>
+            feel free to <a class="hyperlink" data-toggle="tab" href="#social">contact</a> me, i usually dont bite
+          </p>
+          <br>
+          <p>
+            website sourcecode available on <a class="hyperlink" href="https://www.github.com/zxvnme/zxvnme.github.io">github</a>
+          </p>
+        </div>
+      </div>
 
-            <nav class="navbar navbar-inverse">
-                <ul class="nav navbar-nav">
-                    <li><a data-toggle="tab" href="#about"><i class="glyphicon glyphicon-pushpin"></i> about</a></li>
-                    <li><a data-toggle="tab" href="#projects"><i class="glyphicon glyphicon-education"></i> projects</a></li>
-                    <li><a data-toggle="tab" href="#docs"><i class="glyphicon glyphicon-book"></i> docs</a></li>
-                    <li><a data-toggle="tab" href="#downloadables"><i class="glyphicon glyphicon-floppy-save"></i> downloadables</a></li>
-                    <li><a data-toggle="tab" href="#social"><i class="glyphicon glyphicon-star-empty"></i> social</a></li>
-                </ul>
-            </nav>
+      <div id="projects" class="tab-pane fade">
+        <div class="tab text">
+          <h3>~my projects</h3>
+          <dl>
+            <dt>voltage</dt>
+            <dd>discord management app <span class="label label-success">node.js</span> <span class="label label-primary">electron</span></dd>
 
-            <div class="tab-content">
-                <div id="about" class="tab-pane fade in active">
-                    <h2 style="margin-left: 6px;">~about me:</h2>
-                    <p class="tabcontentfont" style="margin-left: 8px;">
-                        my name's Igor (zxvnme), im medium-level programmer with big aspirations
-                    </p>
-                    <p class="tabcontentfont" style="margin-left: 8px;">
-                        i spend a lot of time on learning and developing my programming skills
-                    </p>
-                    <p class="tabcontentfont" style="margin-left: 8px;">
-                        feel free to <a class="hyperlink" data-toggle="tab" href="#social">contact</a> me, i usually dont bite
-                    </p>
-                    <br>
-                    <p class="tabcontentfont" style="margin-left: 8px;">
-                        website sourcecode available on <a class="hyperlink" href="https://www.github.com/zxvnme/zxvnme.github.io">github</a>
-                    </p>
-                </div>
+            <dt>crackerer</dt>
+            <dd>bruteforce like steam web api app <span class="label label-success">node.js</span></dd>
 
-                <div id="projects" class="tab-pane fade">
-                    <h3 style="padding-left: 6px;">~my projects</h3>
-                    <dl class="tabcontentlistfont">
-                        <dt>voltage</dt>
-                        <dd style="padding-left: 16px;">discord management app <span class="label label-success">node.js</span> <span class="label label-primary">electron</span></dd>
+            <dt>cyrex</dt>
+            <dd>csgo cheat <span class="label label-default">vcpp</span></dd>
+          </dl>
+        </div>
+      </div>
 
-                        <dt>crackerer</dt>
-                        <dd style="padding-left: 16px;">bruteforce like steam web api app <span class="label label-success">node.js</span></dd>
 
-                        <dt>cyrex</dt>
-                        <dd style="padding-left: 16px;">csgo cheat <span class="label label-default">vcpp</span></dd>
-                    </dl>
-                </div>
+      <div id="social" class="tab-pane fade">
+        <div class="tab text">
+          <h3>~social<small id="actuallink"> links</small></h3>
+        </div>
 
-                <div id="docs" class="tab-pane fade">
-                    <h3 style="padding-left: 6px;">~documenation</h3>
-                    <div class="center2" style="top: 75% !important">
-                        <a style="padding-left: 6px;" class="hyperlink" href="docs.html">click here to show docs page</a>
-                    </div>
-                </div>
 
-                <div id="downloadables" class="tab-pane fade">
-                    <h3 style="margin-left: 6px;">~downloadable content</h3>
-                    <a class="hyperlink" style="margin-left: 6px;" href="https://github.com/zxvnme/crackerer/releases">crackerer</a> - simple steam api bruteforce-like application that allows you to fast check for steam urls.
-                </div>
-
-                <div id="social" class="tab-pane fade">
-                    <h3 style="margin-left: 6px;">~social<small id="actuallink" style="margin-left: 6px">links</small></h3>
-                    <div class="icons">
-                        <a class="icon" href="https://github.com/zxvnme">
-                            <img onmouseover="setName('github')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/GitHubIcon.png" style="width: 40px;">
+        <div class="icons">
+          <a class="icon" href="https://github.com/zxvnme">
+                            <img onmouseover="setName(' github')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/GitHubIcon.png" style="width: 40px;">
                         </a>
-                        <a class="icon" href="http://steamcommunity.com/id/aaax/">
-                            <img onmouseover="setName('steam')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/SteamIcon.png" style="width: 40px;">
+          <a class="icon" href="http://steamcommunity.com/id/aaax/">
+                            <img onmouseover="setName(' steam')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/SteamIcon.png" style="width: 40px;">
                         </a>
-                        <a class="icon" href="https://fce.tumblr.com/">
-                            <img onmouseover="setName('tumblr')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/TumblrIcon.png" style="width: 40px;">
+          <a class="icon" href="https://fce.tumblr.com/">
+                            <img onmouseover="setName(' tumblr')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/TumblrIcon.png" style="width: 40px;">
                         </a>
-                        <a class="icon" href="https://discord.gg/ccUWyDs">
-                            <img onmouseover="setName('discord')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/DiscordIcon.png" style="width: 40px;">
+          <a class="icon" href="https://discord.gg/ccUWyDs">
+                            <img onmouseover="setName(' discord')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/DiscordIcon.png" style="width: 40px;">
                         </a>
-                        <a class="icon" href="https://www.youtube.com/channel/UCRv6khDEPWgTNFU4mhI1wrA">
-                            <img onmouseover="setName('youtube')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/YoutubeIcon.png" style="width: 40px;">
+          <a class="icon" href="https://www.youtube.com/channel/UCRv6khDEPWgTNFU4mhI1wrA">
+                            <img onmouseover="setName(' youtube')" onmouseleave="onIconExit()" src="/resources/images/icons/png/social/YoutubeIcon.png" style="width: 40px;">
                         </a>
-
-                    </div>
-
-
-                </div>
-
-            </div>
 
         </div>
+
+
+      </div>
+
     </div>
 
-    <script src="/resources/js/events.js"></script>
+  </div>
+
+  <script src="/resources/js/events.js"></script>
 
 </body>

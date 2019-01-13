@@ -1,60 +1,76 @@
-html {
-    overflow-y: hidden;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.tabcontentheadfont {
-    font-size: 16px;
-    padding-left: 4px;
+.all {
+  background-color: #2a2a2a;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px black;
+  color: #757575
 }
 
-.tabcontentfont {
-    font-size: 14px;
-    padding-left: 4px;
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
-.tabcontentlistfont {
-    font-size: 16px;
-    padding-left: 8px;
+.hud {
+  background-color: #212121;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 720px;
+  height: 420px;
+  opacity: 0.90;
+}
+
+.tab.text {
+  margin-left: 8px;
 }
 
 .icons {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 .center {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .center2 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -100px;
-    margin-top: -100px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
 }
 
 .hyperlink {
-    color: #c315c3;
+  color: #c315c3;
 }
 
 .hyperlink:hover {
-    color: #9C27B0;
-    text-decoration: none;
+  color: #9C27B0;
+  text-decoration: none;
 }
 
 h4 {
-    position: relative;
-    left: 43%;
+  position: relative;
+  left: 43%;
 }
