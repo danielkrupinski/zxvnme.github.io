@@ -1,27 +1,29 @@
 .hud {
-  background-color: #212121;
+  background-color: #191919;
   border: solid;
   border-width: 1px;
   border-color: black;
   width: 720px;
   height: 420px;
   opacity: 0.90;
-  -webkit-box-shadow: 10px 10px 5px 0 #191919;
-  -moz-box-shadow: 10px 10px 5px 0 #191919;
-  box-shadow: 10px 10px 5px 0 #191919;
+  -webkit-box-shadow: 10px 10px 20px 0 #191919;
+  -moz-box-shadow: 10px 10px 20px 0 #191919;
+  box-shadow: 10px 10px 20px 20 #191919;
 }
 
 .hud .panel {
+  background-image: url(../images/texture.png);
   width: 30%;
   text-align: center;
+  text-shadow: 2px 2px rgb(1,1,1);
   float: left;
   border: none;
   border-right: solid;
   border-color: black;
   border-width: 1px;
-  -webkit-box-shadow: 10px 0px 5px 0 #191919;
-  -moz-box-shadow: 10px 0px 5px 0 #191919;
-  box-shadow: 10px 0px 5px 0px #191919;
+  -webkit-box-shadow: 10px 0px 5px 0 #161616;
+  -moz-box-shadow: 10px 0px 5px 0 #161616;
+  box-shadow: 10px 0px 5px 0px #161616;
 }
 
 .hud .content {
