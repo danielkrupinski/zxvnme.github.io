@@ -23,12 +23,11 @@
   border-width: 1px;
   -webkit-box-shadow: 10px 0px 5px 0 #161616;
   -moz-box-shadow: 10px 0px 5px 0 #161616;
-  box-shadow: 10px 0px 5px 0px #161616;
+  box-shadow: 10px 0px 10px 0px #161616;
 }
 
 .hud .content {
   width: 66%;
-  float: left;
   margin-left: 3%;
   border: none;
   display: inline-block;
