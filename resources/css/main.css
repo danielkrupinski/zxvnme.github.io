@@ -25,6 +25,10 @@ a {
   z-index: 0;
 }
 
+.necessary {
+  color: #333030;
+}
+
 .center {
   margin: auto;
   position: absolute;
