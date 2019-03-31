@@ -1,5 +1,6 @@
 html,
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -11,18 +12,9 @@ a {
 }
 
 .all {
-  background-color: #2a2a2a;
   font-family: 'Open Sans', sans-serif;
   text-shadow: 1px 1px black;
   color: #757575
-}
-
-.background {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
 }
 
 .necessary {
@@ -45,4 +37,11 @@ a {
   left: 0;
   right: 0;
   height: 0;
+}
+
+.background {
+  height: 100%;
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);
+  background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
 }
